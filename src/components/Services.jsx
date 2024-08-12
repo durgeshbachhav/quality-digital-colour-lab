@@ -33,7 +33,7 @@ import a5 from '../assets/services/pre-wedding/5.jpg'
 import s1 from '../assets/services/sportaction.jpg'
 
 // photo print
-import photo_print from '../assets/services/adv.jpeg'
+import photo_print from '../assets/services/Adv.jpeg'
 
 // pre-maturnity
 import photo_premat from '../assets/services/pre-maternity/2.jpg'
