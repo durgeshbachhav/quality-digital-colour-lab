@@ -34,9 +34,9 @@ const Footer = () => {
         </ul>
 
         <ul className="mt-12 flex justify-center gap-6 md:gap-8">
-          {/* <li>
+          <li>
             <a
-              href="#"
+              href="https://www.facebook.com/people/Quality-Digital-Colour-Lab-Nashik/100063772401696/"
               rel="noreferrer"
               target="_blank"
               className="text-gray-400 transition hover:text-white"
@@ -50,7 +50,7 @@ const Footer = () => {
                 />
               </svg>
             </a>
-          </li> */}
+          </li>
 
           <li>
             <a
