@@ -4,8 +4,8 @@ import { Card, Carousel } from "./ui/apple-cards-carousel";
 
 
 // Wedding Photo Images
-import w1 from '../assets/services/weddingphoto/w1.jpg';
-import w2 from '../assets/services/weddingphoto/w2.jpg';
+import w1 from '../assets/new/5.webp';
+import w2 from '../assets/new/6.webp';
 import w3 from '../assets/services/weddingphoto/w3.jpg';
 import w4 from '../assets/services/weddingphoto/w4.jpg';
 import w5 from '../assets/services/weddingphoto/w5.jpg';
@@ -39,6 +39,7 @@ import photo_print from '../assets/services/Adv.jpeg'
 import photo_premat from '../assets/services/pre-maternity/2.jpg'
 import album1 from '../assets/services/1.jpg'
 import album2 from '../assets/services/2.jpg'
+import album3 from '../assets/new/2.webp'
 
 
 // photo printing
@@ -53,6 +54,13 @@ import m3 from '../assets/services/model-shoot/3.webp'
 import m4 from '../assets/services/model-shoot/4.webp'
 import m5 from '../assets/services/model-shoot/5.webp'
 
+import food1 from '../assets/new/7.webp'
+import food2 from '../assets/new/8.webp'
+
+import fashion1 from '../assets/fashion/1.jpg'
+import fashion2 from '../assets/fashion/2.jpg'
+import fashion3 from '../assets/fashion/3.jpg'
+import fashion4 from '../assets/fashion/4.jpg'
 const Services = () => (
      <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-orange-400 via-black to-black">
           <div className="w-full mx-auto">
@@ -109,7 +117,7 @@ const data = [
                <ServiceContent
                     title="Custom Albums and Framing Solutions"
                     description="Preserve your memories with our custom photo albums and framing services. We offer album designing and printing, creating beautiful keepsakes of your special moments. Our picture framing service includes a variety of options for enlargement, lamination, and framing to display your photos in style."
-                    images={[photo_print, album1, album2]}
+                    images={[photo_print, album1, album2,album3]}
                />
           ),
      },
@@ -134,19 +142,19 @@ const data = [
                <ServiceContent
                     title="Specialized Photography Services"
                     description="Our specialized photography services cater to various needs. We excel in product photography, showcasing your items in the best light for e-commerce and marketing. Our sport action photography captures the intensity and excitement of athletic events. For food photography, we create mouthwatering images that make your culinary creations shine."
-                    images={[pp2, s1, pp1, pp7]}
+                    images={[pp2, s1,food1,food2 , pp7]}
                />
           ),
      },
      {
           category: "Model & Fashion Photography",
           title: "Professional Model Shoots",
-          src: m1,
+          src: fashion2,
           content: (
                <ServiceContent
                     title="Model and Fashion Photography"
                     description="Elevate your portfolio with our professional model shoot services. Whether you're an aspiring model, a fashion designer showcasing your latest collection, or a brand looking for lifestyle images, our experienced photographers know how to capture your best angles and bring your vision to life. We offer studio and on-location shoots, complete with professional lighting and art direction."
-                    images={[m2, m3, m4, m5]}
+                    images={[fashion1, m3, fashion3, fashion4]}
                />
           ),
      },

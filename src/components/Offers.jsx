@@ -33,7 +33,7 @@ export default Offers;
 const servicesData = [
   {
     img: p1,
-    name: "Photo Printing and Enlargement",
+    name: "Picture Frames and Photo Lamination",
   },
   {
     img: photobook,
@@ -43,54 +43,16 @@ const servicesData = [
     img: wedding,
     name: "Wedding Photo and Video Coverage",
   },
-  // {
-  //   img: ledwall,
-  //   name: "LED Wall",
-  // },
-  {
-    img: livesetup,
-    name: "Live Setup",
-  },
-  // {
-  //   img: editorsetup,
-  //   name: "Colour Lab",
-  // },
   {
     img: printer,
-    name: "Printout",
+    name: "Printing Solutions",
   },
-  // {
-  //   img: velvet,
-  //   name: "Velvet Print",
-  // },
   {
     img: canvas,
     name: "Canvas Print",
   },
-
-  {
-    img: videoshooting,
-    name: "Video Shooting",
-  },
-  {
-    img: Industrial,
-    name: "Industrial Photography",
-  },
-
   // {
-  //   img: "https://source.unsplash.com/random/800x600?pre+wedding",
-  //   name: "Pre-wedding Photography",
-  // },
-  // {
-  //   img: "https://source.unsplash.com/random/800x600?product+photography",
-  //   name: "Product Photography",
-  // },
-  // {
-  //   img: "https://source.unsplash.com/random/800x600?interior+photography",
-  //   name: "Interior Photography",
-  // },
-  // {
-  //   img: "https://source.unsplash.com/random/800x600?portrait",
-  //   name: "Portrait Photography",
+  //   img: videoshooting,
+  //   name: "Video Shooting",
   // },
 ];

@@ -37,7 +37,7 @@ const Hero = () => {
                          Quality Digital Colour Lab
                     </motion.p>
                     <button id="#contact" className="px-4 py-2 backdrop-blur-sm border bg-yellow-300/10 border-yellow-500/20 text-white mx-auto text-center rounded-full relative mt-4">
-                         <span >Contact now →</span>
+                        <a href="#contact"> <span >Contact now →</span></a>
                          <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
                     </button>
                </motion.div>

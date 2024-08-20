@@ -61,8 +61,6 @@ const Features = () => {
                     alt="High quality photo print"
                     className="aspect-square w-full rounded object-cover"
                   />
-
-
                 </a>
               </li>
 
